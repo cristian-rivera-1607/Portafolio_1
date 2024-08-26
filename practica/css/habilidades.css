@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 120px 20px 20px 20px; /* Padding-top igual o mayor que la altura del encabezado (100px) más el espacio adicional */
+}
+
+#encabezado {
+    width: 100%;
+    background: #c7b8b8;
+    height: 100px;
+    position: fixed; 
+    top: 0; /* Arriba */
+    left: 0; /* izquierda */
+    z-index: 1000; /* suporponer un objeto a otro */
+}
+
+#nombre{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 5%;
+    font-size: 50px;
+    font-family:'Sans-Serif';
+    margin-right: 30%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #333;
+    padding: 10px;
+    border-radius: 0 0 0 10px;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#habilidades {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.categoria {
+    margin-bottom: 20px;
+}
+
+.categoria h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.barra {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progreso {
+    height: 100%;
+    background-color: #76c7c0;
+    text-align: right;
+    line-height: 20px;
+    color: white;
+    padding-right: 10px;
+    border-radius: 25px 0 0 25px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 210px;
+    margin-left: 210px;
+}
+
+footer {
+    position: fixed;
+    background-color: #c7b8b8;
+    padding: 40px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}

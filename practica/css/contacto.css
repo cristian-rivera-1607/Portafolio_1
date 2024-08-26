@@ -1,0 +1,116 @@
+#encabezado{
+    width: 100%;
+    background: #c7b8b8;
+    height: 100px;
+    position: fixed;
+    top: 3%;
+}
+
+#nombre{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 5%;
+    font-size: 50px;
+    font-family:'Sans-Serif';
+    margin-right: 30%;
+}
+
+
+.form {    /* fomulario */
+    background-color: #c7b8b8; 
+    color: black;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.input-field { /* donde pide el nombre, correo, telefono */
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.input-field input { /* donde pide el nombre, correo, telefono */
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+}
+
+button {    /* la  opcion de mandar */
+    background-color: burlywood;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 200px;
+    font: bolder;
+    font-weight: bold ;
+}
+
+button:hover {
+    background-color: #e0e0e0;  /* al posisionarse cambia el color */
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {  /* pie de pagina */
+    position: fixed;
+    background-color: #c7b8b8;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    padding: 40px;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0; /* Asegúrate de que el margen sea 0 */
+    padding: 0;
+}
+
+
+nav {  /* cuadramos el contenido de la esquina de las opciones */
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #333;
+    padding: 10px;
+    border-radius: 0 0 0 10px;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* quitarle la linea a un nav */
+}
